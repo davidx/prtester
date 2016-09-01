@@ -1,4 +1,4 @@
-minimum_reviewers: 2
+minimum_reviewers: 0
 build_steps:
  - "make"
  - "make test"
