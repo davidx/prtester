@@ -1,6 +1,7 @@
 minimum_reviewers: 1
 build_steps:
- - "while test 1=1; do echo `date +%s`; sleep 2; done"
  - "make test"
+ - "top"
 merge: true
 org_mode: true
+timeout: 10
