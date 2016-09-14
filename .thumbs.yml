@@ -4,4 +4,4 @@ build_steps:
  - "top"
 merge: true
 org_mode: true
-timeout: 10
+timeout: 5
