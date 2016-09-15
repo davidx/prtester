@@ -1,7 +1,7 @@
-minimum_reviewers: 1
+minimum_reviewers: 2
 build_steps:
  - "make"
  - "make test"
 merge: true
 org_mode: false
-timeout: 2500
+timeout: 2910
