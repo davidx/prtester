@@ -1,4 +1,3 @@
-# prtester
 hello
 yes
 yes
