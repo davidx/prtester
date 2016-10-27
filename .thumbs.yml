@@ -4,4 +4,4 @@ build_steps:
  - "make test"
 merge: true
 org_mode: false
-timeout: 2912
+timeout: 2913
