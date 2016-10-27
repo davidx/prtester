@@ -1,9 +1,7 @@
-# prtester
-testing pr
 hello
-yes
-yes
-test
+The testing of words
+1
+1
 1
 1
 1
