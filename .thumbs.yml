@@ -3,6 +3,6 @@ build_steps:
  - "make"
  - "make test"
  - "uptime"
-merge: true 
+merge: false
 org_mode: false
 timeout: 2912
