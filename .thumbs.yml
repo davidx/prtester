@@ -1,7 +1,6 @@
 minimum_reviewers: 1
 build_steps:
  - "make"
- - "make test"
  - "uptime"
 merge: true
 org_mode: false
