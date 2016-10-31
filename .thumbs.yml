@@ -1,4 +1,4 @@
-minimum_reviewers: 1
+minimum_reviewers: 3
 build_steps:
  - "make"
  - "uptime"
