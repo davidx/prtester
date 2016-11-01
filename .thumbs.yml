@@ -1,7 +1,6 @@
 minimum_reviewers: 2
 build_steps:
- - "ake"
  - "uptime"
 merge: true
 org_mode: false
-timeout: 2000
+timeout: 2914
