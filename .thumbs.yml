@@ -3,4 +3,4 @@ build_steps:
  - "uptime"
 merge: true
 org_mode: false
-timeout: 2914
+timeout: 2915
