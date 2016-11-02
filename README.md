@@ -3,8 +3,6 @@ The testing of words
 update
 testerjesf
 1
-more updates
-1
 tester
 1
 1
