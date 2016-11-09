@@ -1,8 +1,8 @@
 minimum_reviewers: 0
 docker_image: phusion/baseimage
 build_steps:
- - "make"
  - "make test"
+ - "make"
 merge: true
 org_mode: false
 timeout: 2915
