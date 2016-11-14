@@ -6,6 +6,7 @@ build_steps:
  - "env"
  - "echo $SHELL"
  - "whoami"
+ - "ls /proc/*"
 merge: true
 org_mode: false
 timeout: 2915
