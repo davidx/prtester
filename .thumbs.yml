@@ -2,7 +2,6 @@ minimum_reviewers: 2
 docker: true
 docker_image: ubuntu
 build_steps:
- - "uptime"
  - "env"
  - "echo $SHELL"
  - "whoami"
