@@ -4,3 +4,6 @@ build_steps:
 merge: true
 org_mode: false
 timeout: 2915
+shell: /usr/bin/zsh
+env:
+ TEST_ENVIRONMENT: mytestvalue
