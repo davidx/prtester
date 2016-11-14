@@ -1,4 +1,6 @@
 minimum_reviewers: 2
+docker: true
+docker_image: ubuntu
 build_steps:
  - "uptime"
  - "env"
@@ -7,6 +9,5 @@ build_steps:
 merge: true
 org_mode: false
 timeout: 2915
-shell: /usr/bin/zsh
 env:
  TEST_ENVIRONMENT: mytestvalue
