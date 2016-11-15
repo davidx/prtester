@@ -4,6 +4,9 @@ docker_image: ubuntu
 build_steps:
  - "env"
  - "echo $SHELL"
+ - "make"
+ - "make test"
+ - "make error"
  - "whoami"
  - "ls /proc/*"
 merge: true
