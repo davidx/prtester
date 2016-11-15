@@ -6,6 +6,7 @@ build_steps:
  - "echo $SHELL"
  - "make"
  - "make test"
+ - "make error"
  - "echo $APP_VERSION"
  - "whoami"
  - "ls /proc/*"
