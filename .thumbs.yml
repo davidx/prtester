@@ -1,6 +1,6 @@
 minimum_reviewers: 2
 docker: true
-docker_image: ubuntu
+docker_image: gcc
 build_steps:
  - "env"
  - "echo $SHELL"
