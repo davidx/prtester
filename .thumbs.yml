@@ -1,6 +1,6 @@
 minimum_reviewers: 2
 docker: true
-docker_image: gcc
+docker_image: "davidxd/yoko"
 build_steps:
  - "env"
  - "echo $SHELL"
@@ -8,6 +8,7 @@ build_steps:
  - "make test"
  - "make error"
  - "echo $APP_VERSION"
+ - "echo $DIALYZER_PLT"
  - "whoami"
  - "ls /proc/*"
 merge: true
