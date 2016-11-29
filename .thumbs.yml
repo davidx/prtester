@@ -1,6 +1,17 @@
 minimum_reviewers: 2
+docker: true
+docker_image: gcc
 build_steps:
- - "uptime"
+ - "env"
+ - "echo $SHELL"
+ - "make"
+ - "make test"
+ - "echo $APP_VERSION"
+ - "whoami"
+ - "ls /proc/*"
 merge: true
 org_mode: false
-timeout: 2915
+timeout: 2916
+env:
+ TEST_ENVIRONMENT: mytestvalue
+ APP_VERSION: 23
