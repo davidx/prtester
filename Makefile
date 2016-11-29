@@ -2,7 +2,7 @@ all:
 	@echo "OK"
 build:
 	@echo "BUILD OK"
-test:
+test:   
 	@echo "TEST OK"
 clean:
 	uptime
