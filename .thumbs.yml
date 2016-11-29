@@ -3,12 +3,6 @@ docker: true
 docker_image: gcc
 build_steps:
  - "env"
- - "echo $SHELL"
- - "make"
- - "make test"
- - "echo $APP_VERSION"
- - "whoami"
- - "ls /proc/*"
 merge: true
 org_mode: false
 timeout: 2916
