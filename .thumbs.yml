@@ -5,14 +5,6 @@ build_steps:
  - "env"
  - "echo $SHELL"
  - "make"
- - "make test"
- - "make error"
- - "which escript"
- - "echo $APP_VERSION"
- - "echo $DIALYZER_PLT"
- - "whoami"
- - "ls /proc/*"
- - "ls $DIALYZER_PLT"
 merge: true
 org_mode: false
 timeout: 2916
