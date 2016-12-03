@@ -1,6 +1,6 @@
-minimum_reviewers: 2
+minimum_reviewers: 0
 docker: true
-docker_image: gcc
+docker_image: "davidxd/yoko"
 build_steps:
  - "env"
 merge: false
@@ -9,3 +9,4 @@ timeout: 2916
 env:
  TEST_ENVIRONMENT: mytestvalue
  APP_VERSION: 23
+ DIALYZER_PLT: .
