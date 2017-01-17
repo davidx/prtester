@@ -6,3 +6,4 @@ merge: false
 org_mode: false
 timeout: 2916
 merge_method: squash
+otp: R16B03
