@@ -2,6 +2,15 @@ minimum_reviewers: 1
 build_steps:
  - "env"
  - "uptime"
+
+build_steps_18:
+ - "env"
+ - "uptime"
+
+build_steps_R16B03:
+ - "env"
+ - "uptime"
+
 merge: false
 org_mode: false
 timeout: 2917
